@@ -1,11 +1,13 @@
 /* Base.scss */
 body {
     background-color: $background-color;
+    box-sizing: border-box;
     color: $color;
     @include body-font-light;
     font-size: $base-font-size;
     margin:0 auto;
     max-width:600px;
+    padding: 0 10px;
     width: 100%;        
 }
 
@@ -16,7 +18,7 @@ h1, h2, h3 {
 }
 
 img {
-    maxi-width:100%;
+    max-width:100%;
 }
 
 svg {
@@ -25,5 +27,5 @@ svg {
 
 h1 svg {
     height: em(16px);
-    margin: em(6px);
+    margin-right: em(6px);
 }
